@@ -1,0 +1,28 @@
+/* Base style */
+
+.center {
+    text-align: center;
+}
+
+#mySvg {
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100px;
+    width: 200px;
+    border-radius: 50px;
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    font-size: 30px;
+    outline: none;
+    border: 2px solid #000000;
+
+}
+button:hover {
+  background: linear-gradient(to top, #f1da36, #fefcea);
+}
